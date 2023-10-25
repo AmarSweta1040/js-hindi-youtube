@@ -2,6 +2,7 @@ const accountId = 144553
 let accountEmail = "amarmaurya1040@gmail.com"
 var accountPassword ="12345"
 accountCity = "Jaipur"
+/*We can declare any variable without assigning the type of the varible before the varible name */
 let accountState;
 /*If we declare any variable and does not assign any value to it, then its default value is "undefined"*/
 
