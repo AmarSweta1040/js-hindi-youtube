@@ -66,5 +66,27 @@ const myFunction = function(){
 
 
 /*
-Stack (Primitive Data Type), Heap(Non Primitive)
+Stack (Primitive Data Type), Heap (Non Primitive)
+Stack में value की Copy मिलती है,
+Heap में value की refrence मिलती है (जो भी change करेंगे Original value में change होगा)
 */
+
+let myYoutubeName = "Infinity Redefined"
+
+let anotherName = myYoutubeName
+anotherName = "Jai Ho"
+
+console.log(myYoutubeName) // Infinity Redefined
+console.log(anotherName) // Jai Ho
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl" 
+}
+
+let userTwo = userOne
+
+userTwo.email = "Google@google.com"
+
+console.log(userOne.email) // Google@google.com
+console.log(userTwo.email) // Google@google.com
