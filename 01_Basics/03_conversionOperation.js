@@ -20,7 +20,8 @@ console.log(typeof (score2))// used as a method
 let valueInNumber1 = Number(score2)
 console.log(typeof valueInNumber1)
 console.log(valueInNumber1) // output => NaN (Not a Number)
-/*When we convert Value from String to Number it will be converted but the converted Value is "NaN" means not a number, so while converting from string to number it is required to be more careful*/
+/*When we convert Value from String to Number it will be converted but the converted Value is
+"NaN" means not a number, so while converting from string to number it is required to be more careful*/
 /*There is not strict check in Javascript*/
  
 let score3 = null
