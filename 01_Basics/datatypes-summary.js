@@ -63,3 +63,8 @@ const myFunction = function(){
        Function   =>  function
        Object     =>  object
 */
+
+
+/*
+Stack (Primitive Data Type), Heap(Non Primitive)
+*/
