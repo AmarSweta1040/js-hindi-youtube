@@ -34,3 +34,13 @@ the cost of some initial verbosity and strictness.
 1. Array
 2. Objects
 3. Functions*/
+
+const heros = ["Shaktiman", "naagraj", "doga"]
+let myObj = {
+    name: "Amar",
+    age: 22
+}
+
+const myFunction = function(){
+    console.log("Hello")
+}
