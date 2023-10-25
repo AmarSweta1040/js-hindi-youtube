@@ -36,11 +36,30 @@ the cost of some initial verbosity and strictness.
 3. Functions*/
 
 const heros = ["Shaktiman", "naagraj", "doga"]
+//Array
 let myObj = {
     name: "Amar",
     age: 22
 }
-
+//Object
 const myFunction = function(){
     console.log("Hello")
 }
+//Function
+
+
+/*Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number    => number
+       String    => string
+       Boolean   => boolean
+       null      => object
+       undefined => undefined
+       Symbol    => symbol
+       BigInt    => bigint
+
+2) Non-primitive Datatypes
+       Arrays     =>  object
+       Function   =>  function
+       Object     =>  object
+*/
