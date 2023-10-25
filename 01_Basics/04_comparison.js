@@ -22,6 +22,9 @@ console.log(undefined == 0) // false
 console.log(undefined == 0) // false
 
 
-// === (While comparing the variables, it first checks if the types differ. If they do, it returns false. If the types match, then it checks for the value. If the values are same and are not numbers, it returns true. Finally, if both the operands are numbers and are not NaN, and they have the same value, then it returns true. Otherwise, false.)
+/* === (While comparing the variables, it first checks if the types differ. If they do, it returns false. 
+If the types match, then it checks for the value. If the values are same and are not numbers, it returns true. 
+Finally, if both the operands are numbers and are not NaN, and they have the same value, 
+then it returns true. Otherwise, false.)*/
 
 console.log("2" === 2)
