@@ -50,3 +50,4 @@ const myn2 = myArray.splice(1,3) //Effect on Original Array, Range Included
 original array which are included in new array, it means if we use splice method*/
 console.log(myn2);   // [ 1, 2, 3 ]
 console.log(myArray);// [ 0, 4, 5 ]
+
