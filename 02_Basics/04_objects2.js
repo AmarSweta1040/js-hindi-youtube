@@ -1,12 +1,14 @@
 const tinderUser = new Object()
+//This is the way in which we can delare a singletome object
+//OR Declaring a object using Constructor Method
 
 console.log(tinderUser) // {}
 
 tinderUser.id = "123abc"
 tinderUser.name = "Amar"
-tinderUser.isLoggedIn = false // { id: '123abc', name: 'Amar', isLoggedIn: false }
+tinderUser.isLoggedIn = false 
 
-console.log(tinderUser)
+console.log(tinderUser)// { id: '123abc', name: 'Amar', isLoggedIn: false }
 
 //Nesting of Objects
 const regularUser = {
@@ -28,6 +30,7 @@ const obj2 = {3:"c", 4:"d"}
 
 const obj3 = {obj1, obj2} 
 console.log(obj3) // { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'c', '4': 'd' } }
+//Object ke andar object aarha h
 
 
 const obj4 = {1:"a", 2:"b"}
@@ -65,10 +68,10 @@ console.log(users[1].email) // a@gmai.com
 
 
 
-console.log(tinderUser);
+console.log(tinderUser); //{ id: '123abc', name: 'Amar', isLoggedIn: false }
 
 console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+console.log(Object.values(tinderUser));//[ '123abc', 'Amar', false ]
+console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Amar' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+console.log(tinderUser.hasOwnProperty('isLogged')); //false

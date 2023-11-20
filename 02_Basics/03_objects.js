@@ -4,8 +4,9 @@
 //--> ******Object.create 
 //-^- iske andar hi singleton banta h
 //Other way to creat
+
 // ******************object literal
-const JsUser = {}// Now this is the object
+const JsUser = {}// Now this is the object (Empty Object)
 
 const JsUser1 = {
     name : "Amar", // String
@@ -28,6 +29,7 @@ console.log(JsUser1["email","isLoggedIn"]); //amar@yahoo.co.in false
 //To modify values in the object
 JsUser1.email = "amar@chatgpt.com"
 //Object.freeze(JsUser1)
+//^^ to freeze the value we use this method
 
 JsUser1.email = "amar@chatgpt.co.in"
 //The above syntax will not execute and also it will not give any error

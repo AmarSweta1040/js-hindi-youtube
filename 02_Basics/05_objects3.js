@@ -6,8 +6,20 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor : abcxyz} = course
+const {courseInstructor} = course
+console.log(courseInstructor); //Amar
 
-//console.log(courseInstructor);
+const {courseInstructor : abc} = course
+console.log(abc);//Amar
 
-console.log(abcxyz);
+//{
+//    "name" : "Amar",
+//    "courseName" : "Js in Hindi"
+//    "price" :"free" 
+//}
+
+[
+    {},
+    {},
+    {}
+]
