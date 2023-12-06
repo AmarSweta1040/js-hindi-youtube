@@ -29,12 +29,9 @@ console.log(newNum3); // [ 5, 6, 7, 8, 9, 10 ]
 
 
 const books = [
-    { title: 'Book One', genre: 'Fiction', publish: 1981,
-    edition: 2004 }, // Object
-    { title: 'Book Two', genre: 'Non-Fiction', publish: 1992,   
-    edition: 2008 }, // Object
-    { title: 'Book Three', genre: 'History', publish: 1999,     
-    edition: 2007 }, // Object
+    { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 }, // Object
+    { title: 'Book Two', genre: 'Non-Fiction', publish: 1992,   edition: 2008 }, // Object
+    { title: 'Book Three', genre: 'History', publish: 1999,     edition: 2007 }, // Object
     { title: 'Book Four', genre: 'Non-Fiction', publish: 1989, edition: 2010 }, // Object
     { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 }, // Object
     { title: 'Book Six', genre: 'Fiction', publish: 1987, edition: 2010 }, // Object
